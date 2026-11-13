@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Shopify Storefront API calls live in src/lib/shopify.ts and cart state in src/stores/cartStore.ts (zustand, persisted); checkout only via cart checkoutUrl — keeps one source for API/cart logic.
